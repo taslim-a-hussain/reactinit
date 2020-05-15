@@ -1,6 +1,6 @@
 {
   "name": "@taslim-a-hussain/reactinit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI to bootstrap projects.",
   "main": "src/index.js",
   "bin": {
