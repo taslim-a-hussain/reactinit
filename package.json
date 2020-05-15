@@ -1,0 +1,33 @@
+{
+  "name": "@taslim-a-hussain/reactinit",
+  "version": "1.0.0",
+  "description": "A CLI to bootstrap projects.",
+  "main": "src/index.js",
+  "bin": {
+    "@taslim-a-hussain/reactinit": "bin/reactinit",
+    "reactinit": "bin/reactinit"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli react generator",
+    "react generator",
+    "react boilerplate"
+  ],
+  "author": "Taslim A Hussain",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.1",
+    "chalk": "^2.4.2",
+    "esm": "^3.2.25",
+    "execa": "^2.0.3",
+    "inquirer": "^6.5.0",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  }
+}
